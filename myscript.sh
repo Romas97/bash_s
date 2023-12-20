@@ -42,11 +42,13 @@ ls
 
  #Управляющая конструкция if-then-else
 
-#	var1=karna
-#       if grep $var1 /c/Users
-#        then
-#        echo "This user $var1 Exists"
-#        else
-#	echo "The user $var1 doesn't exist"
-#	fi
+	var1=romas
+        if grep $var1 /etc/passwd
+        then
+        echo "This user $var1 Exists"
+        else
+	echo "The user $var1 doesn't exist"
+	fi
+	
+	
 
