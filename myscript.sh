@@ -27,10 +27,10 @@ ls
 
  #Математические операции: основная конструкция с=$((a + b))
 
-	var1=$((5+5))
-	echo "$var1"
-	var2=$(($var1 * 2))
-	echo "$var2"
+#	var1=$((5+5))
+#	echo "$var1"
+#	var2=$(($var1 * 2))
+#	echo "$var2"
 
  #Управляющая конструкция if-then
 
@@ -42,11 +42,11 @@ ls
 
  #Управляющая конструкция if-then-else
 
-	var1=karna
-        if grep $var1 /c/Users
-        then
-        echo "This user $var1 Exists"
-        else
-	echo "The user $var1 doesn't exist"
-	fi
+#	var1=karna
+#       if grep $var1 /c/Users
+#        then
+#        echo "This user $var1 Exists"
+#        else
+#	echo "The user $var1 doesn't exist"
+#	fi
 
